@@ -1,6 +1,6 @@
 :root{
     --bg-dark: #222831;
-    --bg-btn: #00ADB5;
+    --bg-btn: #A076F9;
     --bg-light: #EEEEEE;
     --card-light: #fff;
     --card-dark: #222;
@@ -45,7 +45,7 @@ button{
     background-color: var(--bg-btn);
     border: none;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     color: var(--card);
     font-weight: bold;
     font-size: 1rem;
