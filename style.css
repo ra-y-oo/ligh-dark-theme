@@ -1,0 +1,52 @@
+:root{
+    --bg-dark: #222831;
+    --bg-btn: #00ADB5;
+    --bg-light: #EEEEEE;
+    --card-light: #fff;
+    --card-dark: #222;
+    --text-light: #393E46;
+}
+.light{
+    --bg: var(--bg-light);
+    --btn: var(--bg-btn);
+    --card: var(--card-light);
+    --text: var(--text-light);
+}
+.dark{
+    --bg: var(--bg-dark);
+    --btn: var(--bg-btn);
+    --card: var(--card-dark);
+    --text: var(--card-light);    
+}
+
+body{
+    display: grid;
+    height: 100dvh;
+    place-items: center;
+    background-color: var(--bg);
+    color: var(--text);
+    transition: background 500ms ease-in-out, color 1000ms ease-in-out;
+}
+.card{
+    background-color: var(--card);
+    padding: 5rem;
+    max-width: 15rem;
+    font-family: sans-serif;
+    border-radius: 1rem;
+}
+h1{
+    font-weight: bold;
+}
+.card .buttons{
+    display: grid;
+    gap: 1rem;
+}
+button{
+    background-color: var(--bg-btn);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: var(--card);
+    font-weight: bold;
+    font-size: 1rem;
+}
